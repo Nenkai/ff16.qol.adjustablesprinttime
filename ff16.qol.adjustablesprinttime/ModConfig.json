@@ -1,0 +1,51 @@
+{
+  "ModId": "ff16.qol.adjustablesprinttime",
+  "ModName": "Adjustable Sprint/Run Time",
+  "ModAuthor": "Nenkai",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Adjustable time before sprinting (Right Click Mod -> Configure).",
+  "ModDll": "ff16.qol.adjustablesprinttime.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/ff16.qol.adjustablesprinttime.dll",
+  "ModR2RManagedDll64": "x64/ff16.qol.adjustablesprinttime.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "ff16.qol.adjustablesprinttime.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "ff16.qol.adjustablesprinttime": {
+          "Config": {
+            "UserName": "Nenkai",
+            "RepositoryName": "ff16.qol.adjustablesprinttime",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "ff16.qol.adjustablesprinttime.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+
+  "SupportedAppId": [
+    "ffxvi.exe",
+    "ffxvi_demo.exe"
+  ],
+  "ProjectUrl": ""
+}
